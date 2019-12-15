@@ -20,5 +20,13 @@ pipeline {
 
             }
         }
+        
+        stage ('Build'){
+            steps{
+            
+                echo "deployed any artifact"
+
+            }
+        }
     }
 }
